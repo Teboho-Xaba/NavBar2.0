@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: #ddd;
+}
+
+header {
+    padding: 32px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist{
+    list-style: none;
+}
+
+.navlist li{
+    display: inline-block;
+    padding: 0 16px;
+}
+
+li a{
+    font: 16px bolder sans-serif;
+    color: #111;
+    text-decoration: none;
+}
